@@ -1,21 +1,20 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.Python/
-env/
-venv/
-*.egg-info/
-.pytest_cache/
 
-# Editor
-.vscode/
-.idea/
-
-# Environment variables
+# Virtual Environments
 .env
+venv
+.venv
+env/
+venv.bak
+.env.bak
 
-# Docker
-*.log
-*.tmp
+# Test & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
