@@ -14,9 +14,9 @@
 # ===================================================================================
 
 # --- Configurazione del Progetto ---
-PROJECT_NAME="Retry Bot"
+PROJECT_NAME="cliPy"
 GITHUB_USER="ciroautuori"
-REPO_NAME="RetryBot"
+REPO_NAME="cliPy"
 SLOGAN="Automazione OCR sicura che previene i click errati con un protocollo \"Proponi e Verifica\"."
 AUTHOR_NAME="Ciro Autuori"
 COPYRIGHT_YEAR="2024"
