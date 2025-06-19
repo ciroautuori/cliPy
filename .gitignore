@@ -3,28 +3,19 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
+.Python/
 env/
 venv/
-.env
-.pytest_cache/
-.mypy_cache/
-
-# Distribution / packaging
-/dist/
-/build/
 *.egg-info/
+.pytest_cache/
 
-# IDE files
-.idea/
+# Editor
 .vscode/
-*.swp
-*.swo
+.idea/
 
-# OS-generated files
-.DS_Store
-Thumbs.db
+# Environment variables
+.env
 
-# This script
-professionalize.sh
-professionalize.py
+# Docker
+*.log
+*.tmp
