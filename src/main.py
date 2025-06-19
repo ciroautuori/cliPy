@@ -1,15 +1,13 @@
 from fastapi import FastAPI
+from src.core.config import settings
+from src.api import health
 
-# Inizializzazione dell'applicazione FastAPI
+# Inizializzazione dell'applicazione FastAPI usando le impostazioni centralizzate
 app = FastAPI(
-    title="cliPy",
-    description="Un bot Python di eccellenza, costruito con un'architettura solida.",
-    version="0.1.0",
+    title=settings.PROJECT_NAME,
+    version=settings.PROJECT_VERSION,
+    description=settings.PROJECT_DESCRIPTION,
 )
 
-@app.get("/", tags=["Health Check"])
-def read_root():
-    """
-    Endpoint di health check per verificare che il servizio sia attivo.
-    """
-    return {"status": "ok", "project_name": "cliPy"}
+# Includi i router dei moduli API
+app.include_router(health.router)
