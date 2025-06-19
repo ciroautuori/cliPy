@@ -10,13 +10,13 @@
 
 ## 🎯 Scopo del Progetto
 
-Gli assistenti AI come **CodiumAI Agent in VS Code** a volte si bloccano durante la generazione di codice, richiedendo un intervento manuale per premere un pulsante "Retry". Questo interrompe il flusso di lavoro, specialmente quando si utilizzano configurazioni complesse come due agenti in esecuzione contemporanea su uno schermo diviso.
+Gli assistenti AI come **Cline agent AI in VS Code** a volte si bloccano durante la generazione di codice, richiedendo un intervento manuale per premere un pulsante "Retry". Questo interrompe il flusso di lavoro, specialmente quando si utilizzano configurazioni complesse come due agenti in esecuzione contemporanea su uno schermo diviso.
 
 **cliPy automatizza questo processo.** Monitora lo schermo, rileva quando il pulsante "Retry" appare e lo preme automaticamente, permettendo un flusso di lavoro di sviluppo assistito da AI veramente continuo e senza interruzioni.
 
 ## 🛠️ Utilizzo Principale
 
-L'obiettivo è consentire a uno sviluppatore di lavorare con **due istanze di CodiumAI (o simili) in split-screen**, con `cliPy` che agisce in background per sbloccare entrambi i lati in modo autonomo ogni volta che si verifica un blocco.
+L'obiettivo è consentire a uno sviluppatore di lavorare con **due istanze di Cline agent AI in split-screen**, con `cliPy` che agisce in background per sbloccare entrambi i lati in modo autonomo ogni volta che si verifica un blocco.
 
 ## ⚙️ Installazione e Avvio
 
