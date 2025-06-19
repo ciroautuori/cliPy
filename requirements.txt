@@ -1,0 +1,9 @@
+# Core Libraries for Automation and GUI Control
+pyautogui
+
+# Image Processing and Computer Vision
+opencv-python
+numpy
+
+# Optical Character Recognition (OCR)
+pytesseract
